@@ -5,6 +5,7 @@
 // @description  Displays vertical bars on given websites. Usefull when you use to visit production site and don't want to mistake it for local dev. Bars hide when hovered, but return after 5 seconds.
 // @author       Janusz Kamienski
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/ivellios/tampermonkey_prod_warn/master/user.js
 // ==/UserScript==
 
 CSS = `.maintenance-information {top:0;bottom:0;position:fixed;height:100vh;width:70px;z-index:99999;background-image: repeating-linear-gradient(145deg, rgba(255,255,255,0.8), rgba(255,255,255,0.8) 30px, rgba(249,112,114,0.8) 30px, rgba(249,112,114,0.8) 60px);z-index:9999;}
