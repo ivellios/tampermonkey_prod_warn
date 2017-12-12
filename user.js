@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Production Warning Tape
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.1.1
 // @description  Displays vertical bars on given websites. Usefull when you use to visit production site and don't want to mistake it for local dev. Bars hide when hovered, but return after 5 seconds.
 // @author       Janusz Kamienski
 // @grant        none
